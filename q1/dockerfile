@@ -1,0 +1,10 @@
+# Start with slim Python 3.13 image
+FROM python:3.13
+
+# Set working directory
+WORKDIR /app
+
+# Copy application code
+COPY python_version.sh python_version.sh
+# Set entry point
+ENTRYPOINT ["bash", "python_version.sh"]
