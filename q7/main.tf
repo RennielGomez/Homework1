@@ -19,7 +19,7 @@ terraform {
  # This data source gets a temporary token for the service account
  data "google_service_account_access_token" "default" {
    provider               = google
-   target_service_account = "<SERVICE_ACCOUNT_EMAIL>"
+   target_service_account = "homework1@project-66bf4e3c-094a-4b5f-9e4.iam.gserviceaccount.com"
    scopes                 = ["https://www.googleapis.com/auth/cloud-platform"]
    lifetime               = "3600s"
  }

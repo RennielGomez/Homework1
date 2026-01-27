@@ -9,6 +9,11 @@ variable "region" {
   default     = "us-central1"
 }
 
+variable "zone"{
+  description = "Zone"
+  default = "us-central1"
+}
+
 variable "location" {
   description = "Project Location"
   #Update the below to your desired location
