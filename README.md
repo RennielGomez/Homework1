@@ -155,6 +155,15 @@ limit 1;
 Upper East Side North
 ```
 
+# Terraform
+
+## Question 7. Terraform Workflow
+
+## Answer
+```
+terraform init, terraform apply -auto-approve, terraform destroy
+``` 
+
 
 
 
